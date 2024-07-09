@@ -1,0 +1,41 @@
+*{
+    background-color:blanchedalmond;
+}
+
+input{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: rgb(214, 121, 8);
+    color: white;
+}
+.display::placeholder{
+    color: white;
+}
+.display{
+    width: max-content;
+    height: 45px;
+    padding-left: 10px;
+}
+
+.calculator{
+    border: 3px solid black;
+    width: fit-content;
+    text-align: center;
+    border-radius: 10px;
+    display: block;
+    margin: 200px 700px;
+}
+
+table{
+    padding: 0px 10px 10px;
+}
+
+input:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+
+.zero{
+    background-color: rgb(200, 16, 16);
+}
